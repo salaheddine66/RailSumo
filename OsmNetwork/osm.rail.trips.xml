@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/08/20 21:25:58 by Eclipse SUMO duarouter Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\pro\Sumo\2020-09-08-21-23-44\osm.net.xml"/>
+        <route-files value="C:\Users\pro\Sumo\2020-09-08-21-23-44\osm.rail.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\pro\Sumo\2020-09-08-21-23-44\osm.rail.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="rail_rail" vClass="rail"/>
+    <trip id="rail30" type="rail_rail" depart="334.59" departLane="best" departSpeed="max" from="10195562" to="171200230#1"/>
+    <trip id="rail37" type="rail_rail" depart="412.66" departLane="best" departSpeed="max" from="654481299" to="24565640#2"/>
+    <trip id="rail40" type="rail_rail" depart="446.12" departLane="best" departSpeed="max" from="4688772" to="233865128#1"/>
+    <trip id="rail48" type="rail_rail" depart="535.35" departLane="best" from="320398652" to="200158734"/>
+    <trip id="rail63" type="rail_rail" depart="702.64" departLane="best" from="320398617" to="251750397#2"/>
+    <trip id="rail76" type="rail_rail" depart="847.63" departLane="best" departSpeed="max" from="318323536" to="171200230#1"/>
+    <trip id="rail84" type="rail_rail" depart="936.85" departLane="best" departSpeed="max" from="318323536" to="200158734"/>
+    <trip id="rail92" type="rail_rail" depart="1026.08" departLane="best" departSpeed="max" from="28953472" to="356053020#2"/>
+    <trip id="rail96" type="rail_rail" depart="1070.69" departLane="best" departSpeed="max" from="233865121#0" to="4741456"/>
+    <trip id="rail99" type="rail_rail" depart="1104.15" departLane="best" departSpeed="max" from="236544348#0" to="171200230#1"/>
+    <trip id="rail103" type="rail_rail" depart="1148.76" departLane="best" departSpeed="max" from="10195613" to="233865128#1"/>
+    <trip id="rail104" type="rail_rail" depart="1159.91" departLane="best" departSpeed="max" from="-320189127" to="4741456"/>
+    <trip id="rail107" type="rail_rail" depart="1193.37" departLane="best" departSpeed="max" from="236544348#0" to="171200230#1"/>
+    <trip id="rail116" type="rail_rail" depart="1293.75" departLane="best" from="236544334" to="200158734"/>
+    <trip id="rail117" type="rail_rail" depart="1304.90" departLane="best" departSpeed="max" from="28953472" to="251750397#2"/>
+    <trip id="rail127" type="rail_rail" depart="1416.43" departLane="best" departSpeed="max" from="154456585" to="251750397#2"/>
+    <trip id="rail143" type="rail_rail" depart="1594.88" departLane="best" departSpeed="max" from="28953472" to="251750397#2"/>
+    <trip id="rail190" type="rail_rail" depart="2119.07" departLane="best" departSpeed="max" from="375331598" to="356053020#2"/>
+    <trip id="rail239" type="rail_rail" depart="2665.57" departLane="best" departSpeed="max" from="233865139" to="200158734"/>
+    <trip id="rail247" type="rail_rail" depart="2754.80" departLane="best" departSpeed="max" from="4741924#0" to="4741456"/>
+    <trip id="rail252" type="rail_rail" depart="2810.56" departLane="best" departSpeed="max" from="-320398599" to="171200230#1"/>
+    <trip id="rail257" type="rail_rail" depart="2866.33" departLane="best" departSpeed="max" from="318323536" to="200158734"/>
+    <trip id="rail262" type="rail_rail" depart="2922.09" departLane="best" departSpeed="max" from="4741924#0" to="320189131"/>
+    <trip id="rail267" type="rail_rail" depart="2977.86" departLane="best" departSpeed="max" from="-80248990" to="200158734"/>
+    <trip id="rail280" type="rail_rail" depart="3122.85" departLane="best" departSpeed="max" from="43596241" to="171200230#1"/>
+    <trip id="rail287" type="rail_rail" depart="3200.92" departLane="best" departSpeed="max" from="375331598" to="251750397#2"/>
+    <trip id="rail291" type="rail_rail" depart="3245.53" departLane="best" departSpeed="max" from="233865121#0" to="239570966"/>
+    <trip id="rail294" type="rail_rail" depart="3278.99" departLane="best" departSpeed="max" from="43596239" to="171200230#1"/>
+    <trip id="rail307" type="rail_rail" depart="3423.98" departLane="best" departSpeed="max" from="-80248993" to="251750397#2"/>
+</routes>

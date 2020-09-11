@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-09-08 21:24:44.941695 by osmWebWizard.py v1_6_0+0003-190709904e
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_train_RE2:0" edges="290102784" >
+        <stop busStop="5284961125" duration="30.00" until="50.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_RE1:0" edges="385669853" >
+        <stop busStop="3877606472" duration="30.00" until="54.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_RE1:1" edges="290102784" >
+        <stop busStop="5284961125" duration="30.00" until="50.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_tram_21:1" edges="388184246 175929306 104765119#0" >
+        <stop busStop="1864614599" duration="30.00" until="31.0"/> <!-- S+U Lichtenberg/GudrunstraÃŸe -->
+        <stop busStop="96536918" duration="30.00" until="82.0"/> <!-- S+U Lichtenberg/SiegfriedstraÃŸe -->
+    </route>
+    <route id="pt_train_RB24:1" edges="375331598 4741459 158470018#1 385562337 363038680 81623749 417039020#0 417039020#1 200143176" >
+        <stop busStop="3936632578" duration="30.00" until="155.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_tram_16:0" edges="93220950#0 93220950#2 93220950#3 389705418#1" >
+        <stop busStop="288268520" duration="30.00" until="50.0"/> <!-- S+U Frankfurter Allee -->
+        <stop busStop="386791058" duration="30.00" until="134.0"/> <!-- ScharnweberstraÃŸe/WeichselstraÃŸe -->
+    </route>
+    <route id="pt_tram_16:1" edges="167791953#0 167791953#1 155531564#1 155531564#2" >
+        <stop busStop="386790206" duration="30.00" until="31.0"/> <!-- ScharnweberstraÃŸe/WeichselstraÃŸe -->
+        <stop busStop="1679204630" duration="30.00" until="143.0"/> <!-- S+U Frankfurter Allee -->
+    </route>
+    <route id="pt_train_S42:0" edges="200143175 224320989 154456590 427231834 127025011 709592362 121421962#1 121421962#3 28243480 8096479 8096476" >
+        <stop busStop="1797163101" duration="30.00" until="117.0"/> <!-- S Ostkreuz -->
+        <stop busStop="21385742" duration="30.00" until="267.0"/> <!-- S Frankfurter Allee -->
+    </route>
+    <route id="pt_tram_37:0" edges="104765119#0 104765119#1" >
+        <stop busStop="96536918" duration="30.00" until="31.0"/> <!-- S+U Lichtenberg/SiegfriedstraÃŸe -->
+        <stop busStop="1864614582" duration="30.00" until="95.0"/> <!-- Freiaplatz -->
+        <stop busStop="1864614587" duration="30.00" until="154.0"/> <!-- GotlindestraÃŸe -->
+    </route>
+    <route id="pt_train_S41:0" edges="375331609 28813865 121421955#0 121421955#1 121421955#2 127025012 711114630 154456628#0 154456628#1 224705867" >
+        <stop busStop="316787417" duration="30.00" until="63.0"/> <!-- S Frankfurter Allee -->
+        <stop busStop="1797163098" duration="30.00" until="212.0"/> <!-- S Ostkreuz -->
+    </route>
+    <route id="pt_train_RB24:0" edges="154456585 417039023#0 417039023#1 390513525 81623751 28243482#0 28243482#1 28243482#2 119455490#1 446633272 4741205#1" >
+        <stop busStop="1342275460" duration="30.00" until="184.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_tram_M10:0" edges="25162681#0 25162681#1 25162681#4 93861034#0 93861034#3 25376554#0 25376554#1 25376554#2 25376554#4" >
+        <stop busStop="469462973" duration="30.00" until="67.0"/> <!-- GrÃ¼nberger StraÃŸe/Warschauer StraÃŸe -->
+        <stop busStop="631457501" duration="30.00" until="188.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_tram_M10:1" edges="49677303#0 49677303#2 30711172 171197667 10596872#0 10596872#1 10596872#3 93861042#0 93861042#3 93861042#4 93861042#5" >
+        <stop busStop="631457502" duration="30.00" until="31.0"/> <!-- S Warschauer StraÃŸe -->
+        <stop busStop="469466577" duration="30.00" until="93.0"/> <!-- Revaler StraÃŸe -->
+        <stop busStop="30734503" duration="30.00" until="187.0"/> <!-- GrÃ¼nberger StraÃŸe/Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_RB12:0" edges="390513525 81623751 386052954 119455510 320398677#0 320398677#1 320398677#2 320398677#3 320398660 -48923445 -496500391#0 -320398589#1 -320398589#0 28953846 320398669 320398706#0 320398706#1 136651806 -536259491#2 -536259491#1 -536259491#0 233865132 233865128#0 233865128#1" >
+        <stop busStop="1342275460" duration="30.00" until="31.0"/> <!-- Berlin Ostkreuz -->
+        <stop busStop="2440453081" duration="30.00" until="210.0"/> <!-- Berlin-Lichtenberg -->
+    </route>
+    <route id="pt_bus_256:0" edges="464609372" >
+        <stop busStop="506002095" duration="30.00" until="53.0"/> <!-- Zentralfriedhof -->
+    </route>
+    <route id="pt_tram_37:1" edges="618580311#0 618580311#1 170782996#0 170782996#1 387892379 388184246" >
+        <stop busStop="3667255637" duration="30.00" until="52.0"/> <!-- GotlindestraÃŸe -->
+        <stop busStop="1864614733" duration="30.00" until="119.0"/> <!-- FanningerstraÃŸe -->
+        <stop busStop="1865263813" duration="30.00" until="176.0"/> <!-- GuntherstraÃŸe -->
+        <stop busStop="1864614599" duration="30.00" until="237.0"/> <!-- S+U Lichtenberg/GudrunstraÃŸe -->
+    </route>
+    <route id="pt_train_RE2:1" edges="385669853" >
+        <stop busStop="3877606472" duration="30.00" until="54.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_bus_108:0" edges="450639253 264590081#0 25797635#0 25797635#3 470350077 385402821 25463298#1 25463298#3 223188534#0 223188534#4 4689026#0 4689026#1 4689026#2 4689026#3 4689026#4 4689026#5" >
+        <stop busStop="3983685973" duration="30.00" until="31.0"/> <!-- S+U Lichtenberg -->
+        <stop busStop="364793296" duration="30.00" until="96.0"/> <!-- IrenenstraÃŸe -->
+        <stop busStop="364793286" duration="30.00" until="158.0"/> <!-- Einbecker StraÃŸe/Rosenfelder StraÃŸe -->
+    </route>
+    <route id="pt_train_RE7:0" edges="290102784" >
+        <stop busStop="5284961125" duration="30.00" until="50.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_bus_108:1" edges="32644395#0 32644395#1 32644395#2 32644395#3 320892561 223184062#0 223184062#1 -39351129#2 -39351129#1 -39351129#0 -441045985 -232454575 -25771126 -77094760 32446831#1 32446831#2 472040395#0 472040395#1 450639253" >
+        <stop busStop="3933537015" duration="30.00" until="51.0"/> <!-- Robert-Uhrig-StraÃŸe -->
+        <stop busStop="3933537016" duration="30.00" until="113.0"/> <!-- LÃ¶wenberger StraÃŸe -->
+        <stop busStop="3983685973" duration="30.00" until="264.0"/> <!-- S+U Lichtenberg -->
+    </route>
+    <route id="pt_train_RB14:0" edges="385669853" >
+        <stop busStop="3877606472" duration="30.00" until="54.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_S9:0" edges="224320990 517034396 678992907 346444754#1 654481303" >
+        <stop busStop="6127606967" duration="30.00" until="165.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_RB14:1" edges="290102784" >
+        <stop busStop="5284961125" duration="30.00" until="50.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_S8:0" edges="375331609 28813865 121421955#0 121421955#1 121421955#2 127025012 711114630 154456628#0 154456628#1 200143181" >
+        <stop busStop="316787417" duration="30.00" until="63.0"/> <!-- S Frankfurter Allee -->
+        <stop busStop="1797163098" duration="30.00" until="212.0"/> <!-- S Ostkreuz -->
+    </route>
+    <route id="pt_train_S8:1" edges="223374013 224320989 154456590 427231834 127025011 709592362 121421962#1 121421962#3 28243480 8096479 8096476" >
+        <stop busStop="1797163101" duration="30.00" until="117.0"/> <!-- S Ostkreuz -->
+        <stop busStop="21385742" duration="30.00" until="267.0"/> <!-- S Frankfurter Allee -->
+    </route>
+    <route id="pt_train_S9:1" edges="654481299 654481300 678992906 440405447 446682248" >
+        <stop busStop="3714150030" duration="30.00" until="37.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_RE7:1" edges="385669853" >
+        <stop busStop="3877606472" duration="30.00" until="54.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_S5:1" edges="654481299 654481300 678992906 407544848 446682260 446682257 678992905 30691617#0 30691617#1 136651804 24565640#0 24565640#1 24565640#2" >
+        <stop busStop="3714150030" duration="30.00" until="37.0"/> <!-- S Warschauer StraÃŸe -->
+        <stop busStop="4439191866" duration="30.00" until="180.0"/> <!-- S Ostkreuz -->
+        <stop busStop="1117011753" duration="30.00" until="318.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="1117011942" duration="30.00" until="448.0"/> <!-- S Lichtenberg -->
+    </route>
+    <route id="pt_tram_M13:0" edges="171197667 24864947#0 24864947#1 24864947#2 24864947#4 24864947#5 24864947#6 24864947#7 24864947#8 24864947#10 24864947#11 24864947#12 24864947#13 24864947#14 24864947#16 24864947#17 24864947#18 24864947#19 24864947#20 24864947#21 24864947#23 24864947#24 806903746 167791953#0 167791953#1 155531564#1 155531564#2" >
+        <stop busStop="469466577" duration="30.00" until="31.0"/> <!-- Revaler StraÃŸe -->
+        <stop busStop="1822518522" duration="30.00" until="93.0"/> <!-- Libauer StraÃŸe -->
+        <stop busStop="1137469153" duration="30.00" until="158.0"/> <!-- WÃ¼hlischstraÃŸe/GÃ¤rtnerstraÃŸe -->
+        <stop busStop="471493996" duration="30.00" until="267.0"/> <!-- Boxhagener StraÃŸe/HolteistraÃŸe -->
+        <stop busStop="386790206" duration="30.00" until="416.0"/> <!-- ScharnweberstraÃŸe/WeichselstraÃŸe -->
+        <stop busStop="1679204630" duration="30.00" until="526.0"/> <!-- S+U Frankfurter Allee -->
+    </route>
+    <route id="pt_train_S85:0" edges="223374013 224320989 154456590 427231834 127025011 709592362 121421962#1 121421962#3 28243480 8096479 8096476" >
+        <stop busStop="1797163101" duration="30.00" until="117.0"/> <!-- S Ostkreuz -->
+        <stop busStop="21385742" duration="30.00" until="267.0"/> <!-- S Frankfurter Allee -->
+    </route>
+    <route id="pt_tram_M13:1" edges="93220950#0 93220950#2 93220950#3 389705418#1 806903747 106863638 106863633#1 106863633#2 106863633#3 106863633#4 139158262#1 139158262#2 139158262#3 139158262#4 139158262#5 139158262#6 139158262#8 139158262#9 106863634#1 106863634#2 154349619#0 154349619#1 154349619#2 25376554#0 25376554#1 25376554#2 25376554#4" >
+        <stop busStop="288268520" duration="30.00" until="75.0"/> <!-- S+U Frankfurter Allee -->
+        <stop busStop="386791058" duration="30.00" until="159.0"/> <!-- ScharnweberstraÃŸe/WeichselstraÃŸe -->
+        <stop busStop="1840716906" duration="30.00" until="239.0"/> <!-- Boxhagener StraÃŸe/HolteistraÃŸe -->
+        <stop busStop="1822518541" duration="30.00" until="352.0"/> <!-- WÃ¼hlischstraÃŸe/GÃ¤rtnerstraÃŸe -->
+        <stop busStop="1822518527" duration="30.00" until="412.0"/> <!-- SimplonstraÃŸe -->
+        <stop busStop="245548434" duration="30.00" until="471.0"/> <!-- KopernikusstraÃŸe/Warschauer StraÃŸe -->
+        <stop busStop="631457501" duration="30.00" until="561.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_S85:2" edges="375331609 28813865 121421955#0 121421955#1 121421955#2 127025012 711114630 154456628#0 154456628#1 224705867" >
+        <stop busStop="316787417" duration="30.00" until="63.0"/> <!-- S Frankfurter Allee -->
+        <stop busStop="1797163098" duration="30.00" until="212.0"/> <!-- S Ostkreuz -->
+    </route>
+    <route id="pt_train_S5:0" edges="29183195#0 262167706#0 262167706#1 136651807 136651800#0 136651800#1 654481303" >
+        <stop busStop="320929401" duration="30.00" until="153.0"/> <!-- S Lichtenberg -->
+        <stop busStop="1117011896" duration="30.00" until="287.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="6127606967" duration="30.00" until="654.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_S7:1" edges="654481299 654481300 678992906 407544848 446682260 446682257 678992905 30691617#0 30691617#1 136651804 24565640#0 24565640#1 24565640#2" >
+        <stop busStop="3714150030" duration="30.00" until="37.0"/> <!-- S Warschauer StraÃŸe -->
+        <stop busStop="4439191866" duration="30.00" until="182.0"/> <!-- S Ostkreuz -->
+        <stop busStop="1117011753" duration="30.00" until="321.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="1117011942" duration="30.00" until="452.0"/> <!-- S Lichtenberg -->
+    </route>
+    <route id="pt_bus_256:1" edges="-25331371#3 -25331371#1 -25331322#1 -25331322#0 -199578957 -25760738#1 -25760738#0 -404278846 -10864589 -31302266 229061362#0 229061362#1 229061362#2 464609372" >
+        <stop busStop="-3901927136" duration="30.00" until="88.0"/> <!-- S+U Lichtenberg/SiegfriedstraÃŸe -->
+        <stop busStop="-3901927126" duration="30.00" until="172.0"/> <!-- GernotstraÃŸe -->
+        <stop busStop="4004265224" duration="30.00" until="237.0"/> <!-- KriemhildstraÃŸe -->
+        <stop busStop="506002095" duration="30.00" until="294.0"/> <!-- Zentralfriedhof -->
+    </route>
+    <route id="pt_train_S85:1" edges="223374013 224320989 154456590 427231834 127025011 709592362 121421962#1 121421962#3 28243480 8096479 8096476" >
+        <stop busStop="1797163101" duration="30.00" until="152.0"/> <!-- S Ostkreuz -->
+        <stop busStop="21385742" duration="30.00" until="302.0"/> <!-- S Frankfurter Allee -->
+    </route>
+    <route id="pt_train_RB25:0" edges="253974568 236544341 535847783#0 535847783#1 236544334 136651801 48923440 320398589#1 496500391#0 496500391#1 43595221 320398679#1 320398679#2 320398683 320398716 320398641 320398629#0 320398629#1 320398629#2 320398629#3 45663858 200143174 -386052954 -385666432 -390513525" >
+        <stop busStop="3936632579" duration="30.00" until="93.0"/> <!-- Berlin-Lichtenberg -->
+        <stop busStop="-1342275460" duration="30.00" until="266.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_S3:1" edges="654481299 654481300 678992906 407544848 446682260 446682255 385250925 719295168 438360604" >
+        <stop busStop="3714150030" duration="30.00" until="37.0"/> <!-- S Warschauer StraÃŸe -->
+        <stop busStop="4439191866" duration="30.00" until="180.0"/> <!-- S Ostkreuz -->
+        <stop busStop="5046353031" duration="30.00" until="291.0"/> <!-- S Rummelsburg -->
+    </route>
+    <route id="pt_bus_347:1" edges="-665689267#3 -665689267#2 -432764292#2 645012957 155605329#0 155605329#1 -432763465#3 -432763465#0 -35552254#7 -35552254#6 -35552254#5 -35552254#4 -35552254#3 -35552254#2 -35552254#1 -35552254#0 -155605333#6 -155605333#5 -155605333#4 -155605333#3 -155605333#2 4685952#0 4685952#4 4685952#5 4685952#6 -106277831#8 -106277831#5 -106277831#4 -106277831#3 -106277831#2 -106277831#1 -106277831#0 -453379903#3 -453379903#2 109762285#1 62170955#0 62170955#1 824274199#0" >
+        <stop busStop="262652924" duration="30.00" until="87.0"/> <!-- Markgrafendamm -->
+        <stop busStop="-3870914554" duration="30.00" until="142.0"/> <!-- Markgrafendamm -->
+        <stop busStop="-3870914560" duration="30.00" until="211.0"/> <!-- PersiusstraÃŸe -->
+        <stop busStop="663216255" duration="30.00" until="282.0"/> <!-- ModersohnstraÃŸe -->
+        <stop busStop="-3870914557" duration="30.00" until="363.0"/> <!-- Osthafen -->
+        <stop busStop="3870914565" duration="30.00" until="426.0"/> <!-- Stralauer Allee -->
+    </route>
+    <route id="pt_subway_U5:0" edges="381471709 396744562 172093540" >
+        <stop busStop="3876349057" duration="30.00" until="72.0"/> <!-- U Frankfurter Tor -->
+        <stop busStop="3935369910" duration="30.00" until="155.0"/> <!-- U SamariterstraÃŸe -->
+        <stop busStop="710904931" duration="30.00" until="234.0"/> <!-- U Frankfurter Allee -->
+        <stop busStop="3933477400" duration="30.00" until="318.0"/> <!-- U MagdalenenstraÃŸe -->
+        <stop busStop="1784905015" duration="30.00" until="400.0"/> <!-- U Lichtenberg -->
+        <stop busStop="3926745600" duration="30.00" until="504.0"/> <!-- U Friedrichsfelde -->
+    </route>
+    <route id="pt_train_S85:3" edges="375331609 28813865 121421955#0 121421955#1 121421955#2 127025012 711114630 154456628#0 154456628#1 224705867" >
+        <stop busStop="316787417" duration="30.00" until="63.0"/> <!-- S Frankfurter Allee -->
+        <stop busStop="1797163098" duration="30.00" until="212.0"/> <!-- S Ostkreuz -->
+    </route>
+    <route id="pt_subway_U5:1" edges="464757330 396744561 288200093" >
+        <stop busStop="3951294989" duration="30.00" until="95.0"/> <!-- U Friedrichsfelde -->
+        <stop busStop="2445663203" duration="30.00" until="194.0"/> <!-- U Lichtenberg -->
+        <stop busStop="3933477402" duration="30.00" until="279.0"/> <!-- U MagdalenenstraÃŸe -->
+        <stop busStop="3880774070" duration="30.00" until="362.0"/> <!-- U Frankfurter Allee -->
+        <stop busStop="55189254" duration="30.00" until="444.0"/> <!-- U SamariterstraÃŸe -->
+        <stop busStop="107020135" duration="30.00" until="521.0"/> <!-- U Frankfurter Tor -->
+    </route>
+    <route id="pt_tram_21:0" edges="173318266#0 173318266#1 173318266#2 173318266#3 -440027189#1 -440027189#0 -440027186#3 -440027186#2 -440027186#0 -173318507 171206016#0 104765080#0 104765080#1 104765080#2 104765080#3 104765080#5 104765080#6 104765080#7 104765080#8 104765080#9 104765080#10 104765080#11 104765080#12 104765080#13 104765080#14 104765080#16 104765080#17 104765080#18" >
+        <stop busStop="1891963680" duration="30.00" until="46.0"/> <!-- Heizkraftwerk -->
+        <stop busStop="1896387646" duration="30.00" until="131.0"/> <!-- Gustav-Holzmann-StraÃŸe -->
+        <stop busStop="1841628954" duration="30.00" until="208.0"/> <!-- Kosanke-Siedlung -->
+        <stop busStop="1841628955" duration="30.00" until="295.0"/> <!-- S Rummelsburg -->
+        <stop busStop="-3910983107" duration="30.00" until="391.0"/> <!-- MarktstraÃŸe -->
+        <stop busStop="361482764" duration="30.00" until="469.0"/> <!-- Neue BahnhofstraÃŸe -->
+        <stop busStop="471493995" duration="30.00" until="536.0"/> <!-- Boxhagener StraÃŸe/HolteistraÃŸe -->
+        <stop busStop="431281298" duration="30.00" until="644.0"/> <!-- Wismarplatz -->
+    </route>
+    <route id="pt_bus_347:0" edges="36991224#1 36991224#2 453379903#1 453379903#3 106277831#0 106277831#1 106277831#2 106277831#3 106277831#4 106277831#5 106277831#6 -4685952#7 -4685952#5 -4685952#4 -4685952#2 155605333#0 155605333#3 155605333#4 155605333#5 155605333#6 35552254#0 35552254#1 35552254#2 35552254#3 35552254#4 35552254#5 35552254#6 35552254#7 432763465#0 432763465#1 60819742#0 60819742#3 60819742#4 60819742#5 335239860#0 384136808#0 384136808#2 384136808#3 -628419615#2 -628419615#0 -60815657#1 -60815657#0 -706507552 645012958#0 645012958#1" >
+        <stop busStop="3870914558" duration="30.00" until="111.0"/> <!-- Osthafen -->
+        <stop busStop="-3870914555" duration="30.00" until="183.0"/> <!-- ModersohnstraÃŸe -->
+        <stop busStop="3870914559" duration="30.00" until="260.0"/> <!-- PersiusstraÃŸe -->
+        <stop busStop="3870914553" duration="30.00" until="327.0"/> <!-- Markgrafendamm -->
+        <stop busStop="4370346533" duration="30.00" until="403.0"/> <!-- S Ostkreuz -->
+    </route>
+    <route id="pt_train_S3:0" edges="385258471 174528749 174528752 654481303" >
+        <stop busStop="1106283718" duration="30.00" until="142.0"/> <!-- S Rummelsburg -->
+        <stop busStop="6127606967" duration="30.00" until="475.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_bus_396:0" edges="194818300#0 194818300#1 194818300#2 194818300#3 194818300#4 172430685#0 172430685#1 182390330#0 182390330#1 172430683 485793108#0 485793108#1 485793107 184453366#0 184453366#1 184453366#2 184453366#3 -184453366#3 -184453366#2 -184453366#1 -184453366#0 -485793107 -485793108#1 -485793108#0 -172430683 -182390330#1 -182390330#0 -172430685#1 -172430685#0 -194818300#4 -194818300#3 -194818300#2 -194818300#1 -194818300#0 -4689475#1 -198585459#16 -198585459#15 -198585459#14 -198585459#12 -198585459#11 -198585459#9 -198585459#8 -198585459#7 -198585459#6 -198585459#5 -198585459#4 -198585459#3 -198585459#2 -198585459#1 -198585459#0 -633055774#1 -633055774#0 -4689029#1 -120311789#3 -120311789#2 -120311789#0 -175571990#0 39351127#0 39351127#2 438607986#0 438607986#1 -438607988 -132105451#5 -132105451#4 -132105451#3 -132105451#2 -132105451#1 -132105451#0 25771112#0 667302889 4689028#0 4689028#1" >
+        <stop busStop="4003905920" duration="30.00" until="48.0"/> <!-- BalatonstraÃŸe -->
+        <stop busStop="4003905948" duration="30.00" until="121.0"/> <!-- SchwarzmeerstraÃŸe -->
+    </route>
+    <route id="pt_bus_296:0" edges="194818300#0 194818300#1 194818300#2 194818300#3 194818300#4 172430685#0 172430685#1 182390330#0 182390330#1 172430683 485793108#0 485793108#1 485793107 184453366#0 184453366#1 184453366#2 184453366#3 -184453366#3 -184453366#2 -184453366#1 -184453366#0 -485793107 -485793108#1 -485793108#0 -172430683 -182390330#1 -182390330#0 -172430685#1 -172430685#0 -194818300#4 -194818300#3 -194818300#2 -194818300#1 -194818300#0 -4689475#1 -198585459#16 -198585459#15 -198585459#14 -198585459#12 -198585459#11 -198585459#9 -198585459#8 -198585459#7 -198585459#6 -198585459#5 -198585459#4 -198585459#3 -198585459#2 -198585459#1 -198585459#0 -633055774#1 -633055774#0 -4689029#1 -120311789#3 -120311789#2 -120311789#0 -175571990#0 39351127#0 39351127#2 438607986#0 438607986#1 -175574451#1 -175574451#0 -490079484 -175574452#1 -175574452#0 -175574679#8 -175574679#7 -175574679#6 -175574679#5 -175574679#4 -175574679#2 -175574679#1 -150429098#1 -150429098#0 -223288638#1 -223288638#0 -32446834#2 -264590081#1 -450639253 -472040395#1 -472040395#0 -32446831#2 -32446831#1 32446831#1 32446831#2" >
+        <stop busStop="4003905920" duration="30.00" until="47.0"/> <!-- BalatonstraÃŸe -->
+        <stop busStop="4003905948" duration="30.00" until="119.0"/> <!-- SchwarzmeerstraÃŸe -->
+    </route>
+    <route id="pt_bus_296:1" edges="450639253 264590081#0 25797635#0 25797635#3 470350077 385402821 25463298#1 25463298#3 -4689083#2 470350073 25214249#0 25214249#1 25214249#3 25214249#4 25214249#5 -25214249#5 -25214249#4 -25214249#3 -4689089#12 -4689089#11 -4689089#10 -4689089#9 -4689089#8 -4689089#7 -4689089#6 -4689089#5 -4689089#4 -4689089#3 -4689089#2 -4689089#1 -4689089#0 -25762471#11 -25762471#10 -25762471#9 -25762471#8 -25762471#7 -25762471#6 -25762471#5 -25762471#4 -25762471#3 -25762471#2 -25762471#0 -383557654#1 4689029#1 633055774#0 633055774#1 198585459#0 198585459#1 198585459#2 198585459#3 198585459#4 198585459#5 198585459#6 198585459#7 198585459#8 198585459#9 198585459#11 198585459#12 198585459#14 198585459#15 198585459#16 198585459#17 -4689475#1" >
+        <stop busStop="3983685973" duration="30.00" until="31.0"/> <!-- S+U Lichtenberg -->
+        <stop busStop="364793296" duration="30.00" until="118.0"/> <!-- IrenenstraÃŸe -->
+        <stop busStop="364793286" duration="30.00" until="179.0"/> <!-- Einbecker StraÃŸe/Rosenfelder StraÃŸe -->
+        <stop busStop="4003905931" duration="30.00" until="243.0"/> <!-- LincolnstraÃŸe/Einbecker StraÃŸe -->
+    </route>
+    <route id="pt_bus_194:0" edges="-184453366#4 -184453366#3 -184453366#2 -184453366#1 -184453366#0 -485793107 -485793108#1 -485793108#0 -172430683 -182390330#1 -182390330#0 -172430685#1 -172430685#0 -194818300#4 -194818300#3 -194818300#2 -194818300#1 -194818300#0 -4689475#1 -198585459#16 -198585459#15 -198585459#14 -198585459#12 -198585459#11 -198585459#9 -198585459#8 -198585459#7 -198585459#6 -198585459#5 -198585459#4 -198585459#3 -198585459#2 -198585459#1 -198585459#0 -633055774#1 -633055774#0 -4689029#1 -120311789#3 -120311789#2 -120311789#0 -175571990#0 39351127#0 39351127#2 438607986#0 438607986#1 -438607988 -132105451#5 -132105451#4 -132105451#3 -132105451#2 -132105451#1 -132105451#0 25771112#0 667302889 -175573823#3 -175573823#2 -175573823#0 -175568045 -175568044#1 -175568044#0 -198589916#1 -198589916#0 -198589918#3 -198589918#0 -198589917 360153809#0 360153809#1 -665689269#3 -665689269#2 335239846 626979665 626979655#0 25553598#1 25553598#2 25553598#3 439421755#0 -335239860#0 -60819742#5 -60819742#4 -60819742#3 -60819742#2 -155605329#1 -155605329#0 -645012957 432764292#0 46845337" >
+        <stop busStop="-352823731" duration="30.00" until="46.0"/> <!-- SchwarzmeerstraÃŸe -->
+        <stop busStop="-4003905921" duration="30.00" until="112.0"/> <!-- BalatonstraÃŸe -->
+        <stop busStop="-538464925" duration="30.00" until="177.0"/> <!-- SewanstraÃŸe/VolkradstraÃŸe -->
+        <stop busStop="-4003905935" duration="30.00" until="253.0"/> <!-- MichiganseestraÃŸe -->
+        <stop busStop="-4003905957" duration="30.00" until="331.0"/> <!-- WÃ¶nnichstraÃŸe -->
+        <stop busStop="-4003905946" duration="30.00" until="497.0"/> <!-- S NÃ¶ldnerplatz/Schlichtallee -->
+        <stop busStop="-3983685979" duration="30.00" until="566.0"/> <!-- S Rummelsburg -->
+        <stop busStop="5289023576" duration="30.00" until="738.0"/> <!-- S Ostkreuz -->
+        <stop busStop="-4574766498" duration="30.00" until="814.0"/> <!-- Markgrafendamm -->
+    </route>
+    <route id="pt_bus_194:1" edges="195387453#0 -432764292#2 645012957 155605329#0 155605329#1 60819742#0 60819742#3 60819742#4 60819742#5 335239860#0 384136808#0 384136808#2 384136808#3 439421759#0 626979659 626979660#0 626979660#1 665689268#0 198595357 665689269#3 -360153809#2 -360153809#0 198589917 198589915 198589918#1 -31526265#2 198589916#1 198589916#2 175568044#1 175568045 544342248#1 175573823#1 175573823#3 -667302889 -25771112#2 132105451#0 132105451#1 132105451#2 132105451#3 132105451#4 132105451#5 438607988 -438607986#1 -438607986#0 -39351127#2 -39351127#1 -785790737#0 175571990#1 120311789#2 120311789#3 4689029#1 633055774#0 633055774#1 198585459#0 198585459#1 198585459#2 198585459#3 198585459#4 198585459#5 198585459#6 198585459#7 198585459#8 198585459#9 198585459#11 198585459#12 198585459#14 198585459#15 198585459#16 198585459#17 194818300#0 194818300#1 194818300#2 194818300#3 194818300#4 172430685#0 172430685#1 182390330#0 182390330#1 172430683 485793108#0 485793108#1 485793107 184453366#0 184453366#1 184453366#2 184453366#3 184453366#4" >
+        <stop busStop="262652924" duration="30.00" until="71.0"/> <!-- Markgrafendamm -->
+        <stop busStop="4370346533" duration="30.00" until="148.0"/> <!-- S Ostkreuz -->
+        <stop busStop="-3983685978" duration="30.00" until="290.0"/> <!-- S Rummelsburg -->
+        <stop busStop="4003905947" duration="30.00" until="377.0"/> <!-- S NÃ¶ldnerplatz/Schlichtallee -->
+        <stop busStop="4003905958" duration="30.00" until="534.0"/> <!-- WÃ¶nnichstraÃŸe -->
+        <stop busStop="520272363" duration="30.00" until="624.0"/> <!-- MichiganseestraÃŸe -->
+        <stop busStop="4003905951" duration="30.00" until="707.0"/> <!-- SewanstraÃŸe/VolkradstraÃŸe -->
+        <stop busStop="4003905920" duration="30.00" until="768.0"/> <!-- BalatonstraÃŸe -->
+        <stop busStop="4003905948" duration="30.00" until="840.0"/> <!-- SchwarzmeerstraÃŸe -->
+    </route>
+    <route id="pt_train_S7:0" edges="29183195#0 262167706#0 262167706#1 136651807 136651800#0 136651800#1 654481303" >
+        <stop busStop="320929401" duration="30.00" until="198.0"/> <!-- S Lichtenberg -->
+        <stop busStop="1117011896" duration="30.00" until="621.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="6127606967" duration="30.00" until="988.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_RB12:1" edges="-136651806 -48923448#1 -48923448#0 -385666433 -320398614 -320398593 -48923441 320398607 28953372#0 28953372#1 30691606#1 -635807492#1 -635807492#0 -446700170" >
+        <stop busStop="-2440453081" duration="30.00" until="65.0"/> <!-- Berlin-Lichtenberg -->
+        <stop busStop="-5316085165" duration="30.00" until="606.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_S3:3" edges="385258471 174528749 174528752 174528750 407544832 407544837 446682252 446682261#0 446682261#1 446682261#2 520764265#0 520764265#1 654481298 654481297" >
+        <stop busStop="1106283718" duration="30.00" until="283.0"/> <!-- S Rummelsburg -->
+        <stop busStop="4095970537" duration="30.00" until="395.0"/> <!-- S Ostkreuz -->
+        <stop busStop="6132735787" duration="30.00" until="535.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_bus_396:1" edges="464685678 30691726#0 30691726#1 30691726#2 31526264#0 -31526265#2 198589916#1 198589916#2 175568044#1 175568045 544342248#1 175573823#1 175573823#3 -667302889 -25771112#2 132105451#0 132105451#1 132105451#2 132105451#3 132105451#4 132105451#5 438607988 -438607986#1 -438607986#0 -39351127#2 -39351127#1 -785790737#0 175571990#1 120311789#2 120311789#3 383557654#0 25762471#0 25762471#2 25762471#3 25762471#4 25762471#5 25762471#6 25762471#7 25762471#8 25762471#9 25762471#10 25762471#11 25762471#13 25762471#14 25762471#15 25762471#16 25762471#17 25762471#18 25762471#19 25762471#21 25762471#22 25762471#23 -25762471#23 -25762471#22 -25762471#21 -25762471#19 -25762471#18 -25762471#17 -25762471#16 -25762471#15 -25762471#14 -25762471#13 -25762471#11 -25762471#10 -25762471#9 -25762471#8 -25762471#7 -25762471#6 -25762471#5 -25762471#4 -25762471#3 -25762471#2 -25762471#0 -383557654#1 4689029#1 633055774#0 633055774#1 198585459#0 198585459#1 198585459#2 198585459#3 198585459#4 198585459#5 198585459#6 198585459#7 198585459#8 198585459#9 198585459#11 198585459#12 198585459#14 198585459#15 198585459#16 198585459#17 -4689475#1" >
+        <stop busStop="4003905945" duration="30.00" until="31.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="4003905947" duration="30.00" until="134.0"/> <!-- S NÃ¶ldnerplatz/Schlichtallee -->
+        <stop busStop="4003905958" duration="30.00" until="282.0"/> <!-- WÃ¶nnichstraÃŸe -->
+        <stop busStop="4003905929" duration="30.00" until="392.0"/> <!-- LincolnstraÃŸe -->
+        <stop busStop="4003905924" duration="30.00" until="465.0"/> <!-- KraetkestraÃŸe -->
+    </route>
+    <route id="pt_train_S75:1" edges="29183195#0 262167706#0 262167706#1 136651807 136651800#0 136651800#1 30691605 446682263 446682252 446682261#0 446682261#1 446682261#2 520764265#0 520764265#1 654481298 654481297" >
+        <stop busStop="320929401" duration="30.00" until="214.0"/> <!-- S Lichtenberg -->
+        <stop busStop="1117011896" duration="30.00" until="926.0"/> <!-- S NÃ¶ldnerplatz -->
+        <stop busStop="4095970537" duration="30.00" until="1057.0"/> <!-- S Ostkreuz -->
+        <stop busStop="6132735787" duration="30.00" until="1197.0"/> <!-- S Warschauer StraÃŸe -->
+    </route>
+    <route id="pt_train_RB26:0" edges="-136651806 -48923448#1 -48923448#0 -385666433 -320398614 -320398593 -48923441 320398607 28953372#0 28953372#1 30691606#1 635807491#0 635807491#1 224069948" >
+        <stop busStop="-2440453081" duration="30.00" until="65.0"/> <!-- Berlin-Lichtenberg -->
+        <stop busStop="1106283807" duration="30.00" until="859.0"/> <!-- Berlin Ostkreuz -->
+    </route>
+    <route id="pt_train_RB26:1" edges="-224069948 -635807491#1 -635807491#0 -517034395 -30691606#0 -28953372#0 -320398607 48923441 320398593 320398614 536259489 48923447 538597507 516268491 136651803#0 136651803#1 481116921 536259490 251750397#0 251750397#1 251750397#2" >
+        <stop busStop="-1106283807" duration="30.00" until="31.0"/> <!-- Berlin Ostkreuz -->
+        <stop busStop="2440453083" duration="30.00" until="820.0"/> <!-- Berlin-Lichtenberg -->
+    </route>
+    <route id="pt_train_RB25:1" edges="446700170 635807492#0 635807492#1 -517034395 -30691606#0 -28953372#0 -320398607 48923441 320398593 320398614 536259489 48923447 538597507 516268491 136651803#0 136651803#1 481116921 536259490 251750397#0 251750397#1 251750397#2" >
+        <stop busStop="5316085165" duration="30.00" until="56.0"/> <!-- Berlin Ostkreuz -->
+        <stop busStop="2440453083" duration="30.00" until="1007.0"/> <!-- Berlin-Lichtenberg -->
+    </route>
+    <route id="pt_bus_240:0" edges="-11923627#6 -11923627#4 -11923627#2 -593851923#6 -593851923#3 -593851923#2 -593851923#1 -593851923#0 -99963094#2 -99963094#1 -99963094#0 -593851921 -593851922 -11923626#2 -11923626#1 -758683447#1 -112441857#3 -112441857#2 -112441857#1 -97133107#6 -97133107#4 -97133107#2 -97133107#1 -97133107#0 -665689273#3 -665689273#2 -665689273#1 129413464 490912372 562746988#0 563060637 665689270#2 665689270#3 129413465#0 129413465#1 129413465#2 563060638 313867761#1 -56473168#1 -665689269#3 665689269#3 -360153809#2 -360153809#0 198589917 198589915 198589918#1 -31526265#2 198589916#1 198589916#2 175568044#1 175568045 544342248#1 175573823#1 175573823#3 -667302889 -25771112#2 132105451#0 132105451#1 132105451#2 132105451#3 132105451#4 132105451#5 438607988 -175574451#1 -175574451#0 -490079484 -175574452#1 -175574452#0 -175574679#8 -175574679#7 -175574679#6 -175574679#5 -175574679#4 -175574679#2 -175574679#1 -150429098#1 -150429098#0 -223288638#1 -223288638#0 -32446834#2 -264590081#1 -450639253 -472040395#1 -472040395#0 -32446831#2 -32446831#1 77094760 25771126 232454575 441045985 39351129#0 39351129#1 39351129#2 6263129#0 6263129#2 6277268#0 6277268#1 318276285#0 318276285#1 37226971#0 37226971#1 46839074#1 41424988 60769283#0 499658099#1 499658099#2 7624234#0 7624234#1 7624234#2" >
+        <stop busStop="-3983685960" duration="30.00" until="47.0"/> <!-- GrÃ¼nberger StraÃŸe/Warschauer StraÃŸe -->
+        <stop busStop="-3983685981" duration="30.00" until="130.0"/> <!-- Simon-Dach-StraÃŸe -->
+        <stop busStop="-3983679554" duration="30.00" until="196.0"/> <!-- Boxhagener Platz -->
+        <stop busStop="-2915699919" duration="30.00" until="260.0"/> <!-- Wismarplatz -->
+        <stop busStop="-1423996589" duration="30.00" until="356.0"/> <!-- Boxhagener StraÃŸe/HolteistraÃŸe -->
+        <stop busStop="-3910983109" duration="30.00" until="454.0"/> <!-- Neue BahnhofstraÃŸe -->
+        <stop busStop="3910983106" duration="30.00" until="579.0"/> <!-- MarktstraÃŸe -->
+        <stop busStop="-3983685978" duration="30.00" until="729.0"/> <!-- S Rummelsburg -->
+        <stop busStop="4003905947" duration="30.00" until="827.0"/> <!-- S NÃ¶ldnerplatz/Schlichtallee -->
+        <stop busStop="-3983685964" duration="30.00" until="966.0"/> <!-- LÃ¼ckstraÃŸe/WeitlingstraÃŸe -->
+        <stop busStop="-3983685968" duration="30.00" until="1047.0"/> <!-- MÃ¼nsterlandplatz -->
+        <stop busStop="-3983685965" duration="30.00" until="1151.0"/> <!-- MargaretenstraÃŸe -->
+        <stop busStop="-3983685976" duration="30.00" until="1250.0"/> <!-- S+U Lichtenberg -->
+        <stop busStop="3983685971" duration="30.00" until="1372.0"/> <!-- Rosenfelder StraÃŸe -->
+        <stop busStop="3933537006" duration="30.00" until="1476.0"/> <!-- Lichtenberger BrÃ¼cke Nord -->
+        <stop busStop="3933477383" duration="30.00" until="1577.0"/> <!-- AtzpodienstraÃŸe/U MagdalenenstraÃŸe -->
+    </route>
+    <route id="pt_bus_240:1" edges="25771279 370609794#0 109788651 198597176 499658100#0 499658100#1 392721532#0 392721532#1 367801237 223184052#0 223184052#1 223184052#2 223184052#3 223184052#4 310172807#1 310172807#2 310172807#3 310172807#4 37226970 60769279 -223188534#5 -223188534#2 32446828#0 32446828#2 32446828#3 223188530#0 223188530#1 32446831#1 32446831#2 472040395#0 472040395#1 450639253 264590081#0 32446834#1 223288638#0 223288638#1 150429098#0 150429098#1 175574679#1 175574679#2 175574679#4 175574679#5 175574679#6 175574679#7 175574679#8 175574452#0 175574452#1 490079484 175574451#0 175574451#1 -438607988 -132105451#5 -132105451#4 -132105451#3 -132105451#2 -132105451#1 -132105451#0 25771112#0 667302889 -175573823#3 -175573823#2 -175573823#0 -175568045 -175568044#1 -175568044#0 -198589916#1 -198589916#0 -198589918#3 -198589918#0 -198589917 360153809#0 360153809#1 56473168#0 130118934#0 130118934#1 -129413465#4 -129413465#1 -129413465#0 -665689270#3 -665689270#2 -665689270#1 -562746988#0 -490912372 -665689274#1 4534557 665689273#2 665689273#3 97133107#0 97133107#1 97133107#2 97133107#4 97133107#6 112441857#1 112441857#2 112441857#3 758683447#0 11923626#0 11923626#2 593851922 593851921 99963094#0 99963094#1 99963094#2 593851923#0 593851923#1 593851923#2 593851923#3 593851923#4 11923627#0 11923627#4 11923627#6" >
+        <stop busStop="3933477403" duration="30.00" until="56.0"/> <!-- U MagdalenenstraÃŸe -->
+        <stop busStop="3933477380" duration="30.00" until="121.0"/> <!-- AtzpodienstraÃŸe/U MagdalenenstraÃŸe -->
+        <stop busStop="3933537007" duration="30.00" until="240.0"/> <!-- Lichtenberger BrÃ¼cke SÃ¼d -->
+        <stop busStop="364793280" duration="30.00" until="346.0"/> <!-- Einbecker StraÃŸe/Rosenfelder StraÃŸe -->
+        <stop busStop="3983685973" duration="30.00" until="409.0"/> <!-- S+U Lichtenberg -->
+        <stop busStop="3983685966" duration="30.00" until="480.0"/> <!-- MargaretenstraÃŸe -->
+        <stop busStop="3983685983" duration="30.00" until="542.0"/> <!-- SophienstraÃŸe -->
+        <stop busStop="3983685967" duration="30.00" until="648.0"/> <!-- MÃ¼nsterlandplatz -->
+        <stop busStop="3983685963" duration="30.00" until="714.0"/> <!-- LÃ¼ckstraÃŸe/WeitlingstraÃŸe -->
+        <stop busStop="-4003905946" duration="30.00" until="854.0"/> <!-- S NÃ¶ldnerplatz/Schlichtallee -->
+        <stop busStop="-3983685979" duration="30.00" until="924.0"/> <!-- S Rummelsburg -->
+        <stop busStop="3910983108" duration="30.00" until="1056.0"/> <!-- MarktstraÃŸe -->
+        <stop busStop="3910983110" duration="30.00" until="1180.0"/> <!-- Neue BahnhofstraÃŸe -->
+        <stop busStop="3910983105" duration="30.00" until="1276.0"/> <!-- Boxhagener StraÃŸe/HolteistraÃŸe -->
+        <stop busStop="3910272100" duration="30.00" until="1401.0"/> <!-- Wismarplatz -->
+        <stop busStop="3983679553" duration="30.00" until="1459.0"/> <!-- Boxhagener Platz -->
+        <stop busStop="3983685982" duration="30.00" until="1539.0"/> <!-- Simon-Dach-StraÃŸe -->
+        <stop busStop="3983685959" duration="30.00" until="1629.0"/> <!-- GrÃ¼nberger StraÃŸe/Warschauer StraÃŸe -->
+    </route>
+    <flow id="pt_train_RE2:0" type="pt_train" route="pt_train_RE2:0" begin="19.0" end="3619.0" period="3600" line="RE2:0" >
+        <param key="name" value="RE2: Cottbus =&gt; Wismar"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_train_RE1:0" type="pt_train" route="pt_train_RE1:0" begin="47.0" end="3647.0" period="3600" line="RE1:0" >
+        <param key="name" value="RE1: Magdeburg =&gt; EisenhÃ¼ttenstadt"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_train_RE1:1" type="pt_train" route="pt_train_RE1:1" begin="69.0" end="3669.0" period="3600" line="RE1:1" >
+        <param key="name" value="RE1: EisenhÃ¼ttenstadt =&gt; Magdeburg"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_tram_21:1" type="pt_tram" route="pt_tram_21:1" begin="137.0" end="3737.0" period="1200" line="21:1" >
+        <param key="name" value="Tram 21: S+U Lichtenberg/GudrunstraÃŸe =&gt; S SchÃ¶neweide"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_train_RB24:1" type="pt_train" route="pt_train_RB24:1" begin="15.0" end="3615.0" period="3600" line="RB24:1" >
+        <param key="name" value="RB24 Uml: Eberswalde Hauptbahnhof =&gt; Senftenberg"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_tram_16:0" type="pt_tram" route="pt_tram_16:0" begin="119.0" end="3719.0" period="600" line="16:0" >
+        <param key="name" value="Tram 16: Ahrensfelde/Stadtgrenze =&gt; S+U Frankfurter Allee"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_tram_16:1" type="pt_tram" route="pt_tram_16:1" begin="125.0" end="3725.0" period="600" line="16:1" >
+        <param key="name" value="Tram 16: S+U Frankfurter Allee =&gt; Ahrensfelde/Stadtgrenze"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_train_S42:0" type="pt_train" route="pt_train_S42:0" begin="17.0" end="3617.0" period="300" line="S42:0" >
+        <param key="name" value="S42: Ring gegen den Uhrzeigersinn"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_tram_37:0" type="pt_tram" route="pt_tram_37:0" begin="139.0" end="3739.0" period="1200" line="37:0" >
+        <param key="name" value="Tram 37: S+U Lichtenberg/GudrunstraÃŸe =&gt; S SchÃ¶neweide"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_train_S41:0" type="pt_train" route="pt_train_S41:0" begin="15.0" end="3615.0" period="300" line="S41:0" >
+        <param key="name" value="S41: Ring im Uhrzeigersinn"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_train_RB24:0" type="pt_train" route="pt_train_RB24:0" begin="3.0" end="3603.0" period="3600" line="RB24:0" >
+        <param key="name" value="RB24 Uml: Senftenberg =&gt; Eberswalde Hauptbahnhof"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_tram_M10:0" type="pt_tram" route="pt_tram_M10:0" begin="126.0" end="3726.0" period="300" line="M10:0" >
+        <param key="name" value="Tram M10: S+U Hauptbahnhof =&gt; S+U Warschauer StraÃŸe"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_tram_M10:1" type="pt_tram" route="pt_tram_M10:1" begin="131.0" end="3731.0" period="300" line="M10:1" >
+        <param key="name" value="Tram M10: S+U Warschauer StraÃŸe =&gt; S+U Hauptbahnhof"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_train_RB12:0" type="pt_train" route="pt_train_RB12:0" begin="27.0" end="3627.0" period="3600" line="RB12:0" >
+        <param key="name" value="RB12: Berlin Ostkreuz =&gt; Templin Stadt"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_bus_256:0" type="pt_bus" route="pt_bus_256:0" begin="334.0" end="3934.0" period="600" line="256:0" >
+        <param key="name" value="Buslinie 256: Zentralfriedhof Friedrichsfelde =&gt; Siedlung Wartenberg"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_tram_37:1" type="pt_tram" route="pt_tram_37:1" begin="160.0" end="3760.0" period="1200" line="37:1" >
+        <param key="name" value="Tram 37: S SchÃ¶neweide =&gt; S+U Lichtenberg/GudrunstraÃŸe"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_train_RE2:1" type="pt_train" route="pt_train_RE2:1" begin="389.0" end="3989.0" period="3600" line="RE2:1" >
+        <param key="name" value="RE2: Wismar =&gt; Cottbus"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_108:0" type="pt_bus" route="pt_bus_108:0" begin="227.0" end="3827.0" period="600" line="108:0" >
+        <param key="name" value="Bus 108: S+U Lichtenberg =&gt; Waldesruh, Mahlsdorfer Allee"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_train_RE7:0" type="pt_train" route="pt_train_RE7:0" begin="465.0" end="4065.0" period="3600" line="RE7:0" >
+        <param key="name" value="RE7: WÃ¼nsdorf-Waldstadt =&gt; Dessau Hbf"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_108:1" type="pt_bus" route="pt_bus_108:1" begin="253.0" end="3853.0" period="600" line="108:1" >
+        <param key="name" value="Buslinie 108: Waldesruh, Mahlsdorfer Allee =&gt; S+U Lichtenberg"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_train_RB14:0" type="pt_train" route="pt_train_RB14:0" begin="484.0" end="4084.0" period="3600" line="RB14:0" >
+        <param key="name" value="RB14: Nauen =&gt; Berlin-SchÃ¶nefeld"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_train_S9:0" type="pt_train" route="pt_train_S9:0" begin="381.0" end="3981.0" period="1200" line="S9:0" >
+        <param key="name" value="S9: S Flughafen SchÃ¶nefeld =&gt; S Spandau"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_train_RB14:1" type="pt_train" route="pt_train_RB14:1" begin="515.0" end="4115.0" period="3600" line="RB14:1" >
+        <param key="name" value="RB14: Berlin-SchÃ¶nefeld =&gt; Nauen"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_train_S8:0" type="pt_train" route="pt_train_S8:0" begin="303.0" end="3903.0" period="1200" line="S8:0" >
+        <param key="name" value="S8: S Birkenwerder =&gt; S Zeuthen"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_train_S8:1" type="pt_train" route="pt_train_S8:1" begin="321.0" end="3921.0" period="1200" line="S8:1" >
+        <param key="name" value="S8: S Zeuthen =&gt; S Birkenwerder"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_train_S9:1" type="pt_train" route="pt_train_S9:1" begin="441.0" end="4041.0" period="1200" line="S9:1" >
+        <param key="name" value="S9: S Spandau =&gt; S Flughafen SchÃ¶nefeld"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_train_RE7:1" type="pt_train" route="pt_train_RE7:1" begin="574.0" end="4174.0" period="3600" line="RE7:1" >
+        <param key="name" value="RE7: Dessau Hbf =&gt; WÃ¼nsdorf-Waldstadt"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_train_S5:1" type="pt_train" route="pt_train_S5:1" begin="93.0" end="3693.0" period="600" line="S5:1" >
+        <param key="name" value="S5: S Westkreuz =&gt; S Strausberg Nord"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_tram_M13:0" type="pt_tram" route="pt_tram_M13:0" begin="132.0" end="3732.0" period="600" line="M13:0" >
+        <param key="name" value="Tram M13: S Warschauer StraÃŸe =&gt; Wedding, Virchow-Klinikum"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_train_S85:0" type="pt_train" route="pt_train_S85:0" begin="406.0" end="4006.0" period="1200" line="S85:0" >
+        <param key="name" value="S85: S GrÃ¼nau =&gt; S Pankow"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_tram_M13:1" type="pt_tram" route="pt_tram_M13:1" begin="133.0" end="3733.0" period="600" line="M13:1" >
+        <param key="name" value="Tram M13: Wedding, Virchow-Klinikum =&gt; S Warschauer StraÃŸe"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_train_S85:2" type="pt_train" route="pt_train_S85:2" begin="418.0" end="4018.0" period="1200" line="S85:2" >
+        <param key="name" value="S85: S Pankow =&gt; S GrÃ¼nau"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_S5:0" type="pt_train" route="pt_train_S5:0" begin="60.0" end="3660.0" period="600" line="S5:0" >
+        <param key="name" value="S5: S Strausberg Nord =&gt; S Westkreuz"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_S7:1" type="pt_train" route="pt_train_S7:1" begin="163.0" end="3763.0" period="600" line="S7:1" >
+        <param key="name" value="S7: S Potsdam Hauptbahnhof =&gt; S Ahrensfelde"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_256:1" type="pt_bus" route="pt_bus_256:1" begin="441.0" end="4041.0" period="600" line="256:1" >
+        <param key="name" value="Bus 256: Siedlung Wartenberg =&gt; Zentralfriedhof Friedrichsfelde"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_S85:1" type="pt_train" route="pt_train_S85:1" begin="439.0" end="4039.0" period="600" line="S85:1" >
+        <param key="name" value="S85: S SchÃ¶neweide =&gt; S Pankow"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_train_RB25:0" type="pt_train" route="pt_train_RB25:0" begin="485.0" end="4085.0" period="3600" line="RB25:0" >
+        <param key="name" value="RB25: Werneuchen =&gt; Berlin Ostkreuz"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_train_S3:1" type="pt_train" route="pt_train_S3:1" begin="371.0" end="3971.0" period="600" line="S3:1" >
+        <param key="name" value="S3: S Spandau =&gt; S Erkner"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_347:1" type="pt_bus" route="pt_bus_347:1" begin="331.0" end="3931.0" period="600" line="347:1" >
+        <param key="name" value="Bus 347: Stralau, TunnelstraÃŸe =&gt; S Ostbahnhof"/>
+        <param key="completeness" value="0.29"/>
+    </flow>
+    <flow id="pt_subway_U5:0" type="pt_subway" route="pt_subway_U5:0" begin="222.0" end="3822.0" period="300" line="U5:0" >
+        <param key="name" value="U5: S+U Alexanderplatz =&gt; U HÃ¶now"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_train_S85:3" type="pt_train" route="pt_train_S85:3" begin="496.0" end="4096.0" period="600" line="S85:3" >
+        <param key="name" value="S85: S Pankow =&gt; S SchÃ¶neweide"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_subway_U5:1" type="pt_subway" route="pt_subway_U5:1" begin="227.0" end="3827.0" period="300" line="U5:1" >
+        <param key="name" value="U5: U HÃ¶now =&gt; S+U Alexanderplatz"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_tram_21:0" type="pt_tram" route="pt_tram_21:0" begin="136.0" end="3736.0" period="1200" line="21:0" >
+        <param key="name" value="Tram 21: S SchÃ¶neweide =&gt; S+U Lichtenberg/GudrunstraÃŸe"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_bus_347:0" type="pt_bus" route="pt_bus_347:0" begin="326.0" end="3926.0" period="600" line="347:0" >
+        <param key="name" value="Bus 347: S Ostbahnhof =&gt; Stralau, TunnelstraÃŸe"/>
+        <param key="completeness" value="0.24"/>
+    </flow>
+    <flow id="pt_train_S3:0" type="pt_train" route="pt_train_S3:0" begin="365.0" end="3965.0" period="600" line="S3:0" >
+        <param key="name" value="S3: S Erkner =&gt; S Spandau"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_396:0" type="pt_bus" route="pt_bus_396:0" begin="505.0" end="4105.0" period="600" line="396:0" >
+        <param key="name" value="Bus 396: S Karlshorst =&gt; S NÃ¶ldnerplatz"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_296:0" type="pt_bus" route="pt_bus_296:0" begin="437.0" end="4037.0" period="600" line="296:0" >
+        <param key="name" value="Bus 296: S Karlshorst =&gt; S+U Lichtenberg"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_296:1" type="pt_bus" route="pt_bus_296:1" begin="437.0" end="4037.0" period="600" line="296:1" >
+        <param key="name" value="Bus 296: S+U Lichtenberg =&gt; S Karlshorst"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_bus_194:0" type="pt_bus" route="pt_bus_194:0" begin="166.0" end="3766.0" period="600" line="194:0" >
+        <param key="name" value="Bus 194: Marzahn, Helene-Weigel-Platz =&gt; U Hermannplatz"/>
+        <param key="completeness" value="0.27"/>
+    </flow>
+    <flow id="pt_bus_194:1" type="pt_bus" route="pt_bus_194:1" begin="173.0" end="3773.0" period="600" line="194:1" >
+        <param key="name" value="Bus 194: U Hermannplatz =&gt; Marzahn, Helene-Weigel-Platz"/>
+        <param key="completeness" value="0.26"/>
+    </flow>
+    <flow id="pt_train_S7:0" type="pt_train" route="pt_train_S7:0" begin="98.0" end="3698.0" period="600" line="S7:0" >
+        <param key="name" value="S7: S Ahrensfelde =&gt; S Potsdam Hauptbahnhof"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_train_RB12:1" type="pt_train" route="pt_train_RB12:1" begin="483.0" end="4083.0" period="3600" line="RB12:1" >
+        <param key="name" value="RB12: Templin Stadt =&gt; Berlin Ostkreuz"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_S3:3" type="pt_train" route="pt_train_S3:3" begin="593.0" end="4193.0" period="600" line="S3:3" >
+        <param key="name" value="S3: S Friedrichshagen =&gt; S Ostbahnhof"/>
+        <param key="completeness" value="0.30"/>
+    </flow>
+    <flow id="pt_bus_396:1" type="pt_bus" route="pt_bus_396:1" begin="561.0" end="4161.0" period="600" line="396:1" >
+        <param key="name" value="Bus 396: S NÃ¶ldnerplatz =&gt; S Karlshorst"/>
+        <param key="completeness" value="0.28"/>
+    </flow>
+    <flow id="pt_train_S75:1" type="pt_train" route="pt_train_S75:1" begin="165.0" end="3765.0" period="600" line="S75:1" >
+        <param key="name" value="S75: S Wartenberg =&gt; S Ostbahnhof"/>
+        <param key="completeness" value="0.40"/>
+    </flow>
+    <flow id="pt_train_RB26:0" type="pt_train" route="pt_train_RB26:0" begin="559.0" end="4159.0" period="3600" line="RB26:0" >
+        <param key="name" value="RB26: Kostrzyn =&gt; Berlin-Ostkreuz"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_RB26:1" type="pt_train" route="pt_train_RB26:1" begin="517.0" end="4117.0" period="3600" line="RB26:1" >
+        <param key="name" value="RB26: Berlin-Ostkreuz =&gt; Kostrzyn"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_train_RB25:1" type="pt_train" route="pt_train_RB25:1" begin="535.0" end="4135.0" period="3600" line="RB25:1" >
+        <param key="name" value="RB25: Berlin Ostkreuz =&gt; Werneuchen"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_bus_240:0" type="pt_bus" route="pt_bus_240:0" begin="353.0" end="3953.0" period="600" line="240:0" >
+        <param key="name" value="Buslinie 240: S Ostbahnhof =&gt; S Storkower StraÃŸe"/>
+        <param key="completeness" value="0.53"/>
+    </flow>
+    <flow id="pt_bus_240:1" type="pt_bus" route="pt_bus_240:1" begin="362.0" end="3962.0" period="600" line="240:1" >
+        <param key="name" value="Bus 240: S Storkower StraÃŸe =&gt; S Ostbahnhof"/>
+        <param key="completeness" value="0.56"/>
+    </flow>
+</routes>
