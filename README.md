@@ -25,6 +25,8 @@ SUMO – Applications :
 
 Public transport in SUMO :
 
+![public_transport](https://github.com/salaheddine66/RailSumo/issues/1#issue-699823002) 
+
 - Import of public transport data from OpenStreetMap
 - Automation support for network correction
 - Heuristic completion of missing schedule data
