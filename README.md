@@ -1,6 +1,36 @@
 # RailSumo
-achievements: 
 
+Achievements: 
+
+WHY SUMO : 
+- Mature research platform 
+- Open and Extensible
+- Powerful toolbox for creating, running, analyzing simulations
+- Run-time interaction with user code
+- Active global user community
+- Used world-wide, especially in the scientific community
+
+SUMO – Applications :
+
+- Planning and evaluation / assessment
+- Traffic management 
+- Infrastructure changes
+- Public transport
+- New technologies (e.g. vehicular communication, automated transport systems)
+- Optimization
+- Traffic lights
+- Routing
+- Traffic forecast (short-term mostly)
+- Data fusion for traffic surveillance
+
+Public transport in SUMO :
+
+- Import of public transport data from OpenStreetMap
+- Automation support for network correction
+- Heuristic completion of missing schedule data
+- Computing itineraries
+
+Transport Network Tools : 
 
 
 Interfacing  with traCI : 
