@@ -25,34 +25,39 @@ SUMO – Applications :
 
 Public transport in SUMO :
 
- [public_transport](https://github.com/salaheddine66/RailSumo/issues/1#issue-699823002) 
-
-How to chance and rebuild the scenario :
-
-[edit&make](https://github.com/salaheddine66/RailSumo/issues/3#issue-699847726)
-
-Tracks: 
-
-Vehicle :
-
-Simulation :
-
-Signals :
-
-Stations :
-
-Schedule :
-
-
-
-
-
 - Import of public transport data from OpenStreetMap
 - Automation support for network correction
 - Heuristic completion of missing schedule data
 - Computing itineraries
 
 Transport Network Tools : 
+
+ [public_transport](https://github.com/salaheddine66/RailSumo/issues/1#issue-699823002) 
+
+How to chance and rebuild the scenario :
+
+ [edit&make](https://github.com/salaheddine66/RailSumo/issues/3#issue-699847726)
+
+Building a train scenario :
+
+ - Tracks: 
+
+ - Vehicle :
+
+ - Simulation :
+
+ - Signals :
+
+ - Stations :
+
+ - Schedule :
+
+
+
+
+
+
+
 
 
 Interfacing  with traCI : 
