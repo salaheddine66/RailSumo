@@ -1,8 +1,8 @@
 # RailSumo
 
-Achievements: 
++++ ACHIEVEMENT +++ 
 
-WHY SUMO : 
+Why SUMO : 
 - Mature research platform 
 - Open and Extensible
 - Powerful toolbox for creating, running, analyzing simulations
