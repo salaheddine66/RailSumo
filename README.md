@@ -36,7 +36,7 @@ Transport Network Tools :
 
 How to chance and rebuild the scenario :
 
-<img src="photos/4.png" width="600" height="300">
+<img src="photos/4.png" width="600" height="600">
 
 Building a train scenario :
 
