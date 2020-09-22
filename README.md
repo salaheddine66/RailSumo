@@ -32,12 +32,12 @@ Public transport in SUMO :
 
 Transport Network Tools : 
 
-<img src="photos/1.PNG" width="400"  height="400">
+<img src="photos/1.PNG" width="600"  height="300">
 
 
 How to chance and rebuild the scenario :
 
-<img src="photos/4.PNG" width="400"  height="400">
+<img src="photos/4.PNG" width="600"  height="300">
 
 Building a train scenario :
 
