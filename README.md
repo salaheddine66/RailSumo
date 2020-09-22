@@ -32,11 +32,12 @@ Public transport in SUMO :
 
 Transport Network Tools : 
 
- [public_transport](https://github.com/salaheddine66/RailSumo/issues/1#issue-699823002) 
+<img src="photos/1.PNG" width="100"  height="10">
+
 
 How to chance and rebuild the scenario :
 
- [edit&make](https://github.com/salaheddine66/RailSumo/issues/3#issue-699847726)
+<img src="photos/4.PNG" width="100"  height="10">
 
 Building a train scenario :
 
