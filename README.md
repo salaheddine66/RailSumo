@@ -48,7 +48,7 @@ Building a train scenario :
 
  - Vehicle :
 
-<img src="photos/V.PNG" width="350" height="350">
+<img src="photos/V.PNG" width="400" height="400">
 
 <img src="photos/v2.PNG" width="600" height="600">
 
