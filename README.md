@@ -41,16 +41,32 @@ How to chance and rebuild the scenario :
 Building a train scenario :
 
  - Tracks: 
+ 
+ <img src="photos/track1.PNG" width="600" height="600">
+ 
+ <img src="photos/track.PNG" width="600" height="600">
 
  - Vehicle :
 
+<img src="photos/V.PNG" width="600" height="600">
+
+<img src="photos/v2.PNG" width="600" height="600">
+
  - Simulation :
+ 
+ <img src="photos/simu.PNG" width="600" height="600">
 
  - Signals :
+ 
+ <img src="photos/sig.PNG" width="600" height="600">
+ 
+ <img src="photos/signal.PNG" width="600" height="600">
+ 
+ <img src="photos/sign1.PNG" width="600" height="600">
 
  - Stations :
 
- - Schedule :
+<img src="photos/stop.PNG" width="600" height="600">
 
 
 Using Reinforcement Learning for Simulation of Urban Mobility :
