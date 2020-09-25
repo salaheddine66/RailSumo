@@ -42,7 +42,7 @@ Building a train scenario :
 
  - Tracks: 
  
- <img src="photos/track1.PNG" width="600" height="600">
+ <img src="photos/track1.PNG" width="400" height="400">
  
  <img src="photos/track.PNG" width="600" height="600">
 
